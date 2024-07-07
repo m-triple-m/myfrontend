@@ -17,7 +17,8 @@ const Login = () => {
         onSubmit: (values) => {
             console.log(values);
 
-            fetch('http://localhost:5000/user/authenticate/', {
+            // fetch('http://localhost:5000/user/authenticate/', {
+            fetch('https://mybackend-rj13.onrender.com/user/authenticate/', {
                 method: 'POST',
                 body: JSON.stringify(values),
                 headers: {

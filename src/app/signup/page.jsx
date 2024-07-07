@@ -34,7 +34,8 @@ const Signup = () => {
       // 3. process the request
       // 4. send response back to frontend
 
-      fetch('http://localhost:5000/user/add', {
+      // fetch('http://localhost:5000/user/add', {
+      fetch('https://mybackend-rj13.onrender.com/user/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
